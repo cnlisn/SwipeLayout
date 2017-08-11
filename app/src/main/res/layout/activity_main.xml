@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lisn.swipelayout.MainActivity">
+
+    <!--<com.lisn.swipelayout.SwipeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--&gt;-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#888888"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Call"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#ff0000"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Delete"-->
+                <!--android:textColor="#fff"/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#33101010"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+
+                <!--android:layout_width="35dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:src="@drawable/head_1"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="姓名"/>-->
+        <!--</LinearLayout>-->
+    <!--</com.lisn.swipelayout.SwipeLayout>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listview"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
